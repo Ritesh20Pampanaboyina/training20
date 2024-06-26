@@ -1,0 +1,7 @@
+C:\CSharp(#)\assessment\cc2\bin\Debug\cc2.exe.config
+C:\CSharp(#)\assessment\cc2\bin\Debug\cc2.exe
+C:\CSharp(#)\assessment\cc2\bin\Debug\cc2.pdb
+C:\CSharp(#)\assessment\cc2\obj\Debug\cc2.csproj.AssemblyReference.cache
+C:\CSharp(#)\assessment\cc2\obj\Debug\cc2.csproj.CoreCompileInputs.cache
+C:\CSharp(#)\assessment\cc2\obj\Debug\cc2.exe
+C:\CSharp(#)\assessment\cc2\obj\Debug\cc2.pdb
