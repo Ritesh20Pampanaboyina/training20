@@ -1,4 +1,0 @@
-This text will be appended to the file if it exists, otherwise a new file will be created.
-This text will be appended to the file if it exists, otherwise a new file will be created.
-This text will be appended to the file if it exists, otherwise a new file will be created.
-This text will be appended to the file if it exists, otherwise a new file will be created.

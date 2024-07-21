@@ -1,4 +1,0 @@
-Hello and Welcome
-It is the first content
-of the text file demo.txt
-This is the line appended at the end.
