@@ -1,7 +1,0 @@
-C:\CSharp(#)\assessment\cc3\bin\Debug\cc3.exe.config
-C:\CSharp(#)\assessment\cc3\bin\Debug\cc3.exe
-C:\CSharp(#)\assessment\cc3\bin\Debug\cc3.pdb
-C:\CSharp(#)\assessment\cc3\obj\Debug\cc3.csproj.AssemblyReference.cache
-C:\CSharp(#)\assessment\cc3\obj\Debug\cc3.csproj.CoreCompileInputs.cache
-C:\CSharp(#)\assessment\cc3\obj\Debug\cc3.exe
-C:\CSharp(#)\assessment\cc3\obj\Debug\cc3.pdb
