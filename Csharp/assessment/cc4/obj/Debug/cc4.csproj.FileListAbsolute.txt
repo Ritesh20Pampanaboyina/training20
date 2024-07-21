@@ -1,0 +1,7 @@
+C:\CSharp(#)\assessment\cc4\bin\Debug\cc4.exe.config
+C:\CSharp(#)\assessment\cc4\bin\Debug\cc4.exe
+C:\CSharp(#)\assessment\cc4\bin\Debug\cc4.pdb
+C:\CSharp(#)\assessment\cc4\obj\Debug\cc4.csproj.AssemblyReference.cache
+C:\CSharp(#)\assessment\cc4\obj\Debug\cc4.csproj.CoreCompileInputs.cache
+C:\CSharp(#)\assessment\cc4\obj\Debug\cc4.exe
+C:\CSharp(#)\assessment\cc4\obj\Debug\cc4.pdb

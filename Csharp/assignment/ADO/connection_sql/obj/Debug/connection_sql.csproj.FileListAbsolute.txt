@@ -1,0 +1,7 @@
+C:\CSharp_training\Csharp\assignment\ADO\connection_sql\obj\Debug\connection_sql.csproj.CoreCompileInputs.cache
+C:\CSharp_training\Csharp\assignment\ADO\connection_sql\bin\Debug\connection_sql.exe.config
+C:\CSharp_training\Csharp\assignment\ADO\connection_sql\bin\Debug\connection_sql.exe
+C:\CSharp_training\Csharp\assignment\ADO\connection_sql\bin\Debug\connection_sql.pdb
+C:\CSharp_training\Csharp\assignment\ADO\connection_sql\obj\Debug\connection_sql.exe
+C:\CSharp_training\Csharp\assignment\ADO\connection_sql\obj\Debug\connection_sql.pdb
+C:\CSharp_training\Csharp\assignment\ADO\connection_sql\obj\Debug\connection_sql.csproj.AssemblyReference.cache
