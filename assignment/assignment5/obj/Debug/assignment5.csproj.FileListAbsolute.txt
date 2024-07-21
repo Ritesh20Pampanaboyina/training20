@@ -1,0 +1,7 @@
+C:\CSharp(#)\assignment\assignment5\bin\Debug\assignment5.exe.config
+C:\CSharp(#)\assignment\assignment5\bin\Debug\assignment5.exe
+C:\CSharp(#)\assignment\assignment5\bin\Debug\assignment5.pdb
+C:\CSharp(#)\assignment\assignment5\obj\Debug\assignment5.csproj.AssemblyReference.cache
+C:\CSharp(#)\assignment\assignment5\obj\Debug\assignment5.csproj.CoreCompileInputs.cache
+C:\CSharp(#)\assignment\assignment5\obj\Debug\assignment5.exe
+C:\CSharp(#)\assignment\assignment5\obj\Debug\assignment5.pdb
