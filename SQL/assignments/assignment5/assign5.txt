@@ -1,0 +1,40 @@
+--1.
+
+create or alter procedure GeneratePaySlip @EmployeeID int
+as
+begin
+  declare @EmployeeName varchar(20);
+  declare @Salary decimal(18,2);
+  declare @HRA decimal(18,2);
+  declare @DA decimal(18,2);
+  declare @PF decimal(18,2);
+  declare @IT decimal(18,2);
+  declare @Deductions decimal(18,2);
+  declare @GrossSalary decimal(18,2);
+  declare @NetSalary decimal(18,2);
+
+  select @EmployeeName = Ename, @Salary = salary from tblEmployees where Empno = @EmployeeID;
+
+  set @HRA = 0.10 * @Salary;
+  set @DA = 0.20 * @Salary;
+  set @PF = 0.08 * @Salary;
+  set @IT = 0.05 * @Salary;
+  set @Deductions = @PF + @IT;
+  set @GrossSalary = @Salary + @HRA + @DA;
+  set @NetSalary = @GrossSalary - @Deductions;
+
+  print 'payslip for employee id: ' +cast(@EmployeeID as varchar(10));
+  print '-----------------------------------------------------------------';
+  print 'EmployeeName: ' + @EmployeeName;
+  print 'Base salary: ' +cast(@Salary as varchar(18));
+  print 'HRA (10%): ' +cast(@HRA as varchar(18));
+  print 'DA (20%): ' +cast(@DA as varchar(18));
+  print 'PF(8%): ' +cast(@PF as varchar(18));
+  print 'IT(5%): ' +cast(@IT as varchar(18));
+  print 'Gross salary: ' +cast(@GrossSalary as varchar(18));
+  print 'Deductions (PF + IT): ' +cast(@Deductions as varchar(18));
+  print 'Net salary: ' +cast(@NetSalary as varchar(18));
+  print '-----------------------------------------------------------------';
+end
+select * from tblEmployees;
+exec GeneratePaySlip @EmployeeID = 7005;

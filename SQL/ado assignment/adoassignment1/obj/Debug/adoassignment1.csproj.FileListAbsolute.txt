@@ -1,0 +1,7 @@
+C:\CSharp_training\SQL\ado assignment\adoassignment1\bin\Debug\adoassignment1.exe.config
+C:\CSharp_training\SQL\ado assignment\adoassignment1\bin\Debug\adoassignment1.exe
+C:\CSharp_training\SQL\ado assignment\adoassignment1\bin\Debug\adoassignment1.pdb
+C:\CSharp_training\SQL\ado assignment\adoassignment1\obj\Debug\adoassignment1.csproj.AssemblyReference.cache
+C:\CSharp_training\SQL\ado assignment\adoassignment1\obj\Debug\adoassignment1.csproj.CoreCompileInputs.cache
+C:\CSharp_training\SQL\ado assignment\adoassignment1\obj\Debug\adoassignment1.exe
+C:\CSharp_training\SQL\ado assignment\adoassignment1\obj\Debug\adoassignment1.pdb
