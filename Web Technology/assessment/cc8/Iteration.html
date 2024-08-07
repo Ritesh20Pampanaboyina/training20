@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Odd or Even Checker</title>
+</head>
+<body>
+    <h1>Odd or Even Checker</h1>
+    <div id="results">Showing Results here</div>
+
+    <script>
+        var str = '';
+        for (var i = 0; i <= 15; i++) {
+            var result;
+            if (i % 2 === 0) {
+                result = "Even";
+            } else {
+                result = "Odd";
+            }
+            str += "Number " + i + " is " + result + "<br/>";
+        }
+        document.getElementById("results").innerHTML = str;
+    </script>
+</body>
+</html>

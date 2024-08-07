@@ -1,0 +1,67 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Multiplication and Division Calculator</title>
+    <!-- Using external JavaScript file as a part of the jQuery library -->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+        function multiply() {
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+
+            if (isNumeric(num1, "Please enter a valid first number") && isNumeric(num2, "Please enter a valid second number")) {
+                num1 = Number(num1);
+                num2 = Number(num2);
+
+                var multiplication = num1 * num2;
+                document.getElementById('multiplicationResult').innerHTML = 'Multiplication: ' + multiplication;
+            }
+        }
+
+        function divide() {
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+
+            if (isNumeric(num1, "Please enter a valid first number") && isNumeric(num2, "Please enter a valid second number")) {
+                num1 = Number(num1);
+                num2 = Number(num2);
+
+                var division;
+                if (num2 !== 0) {
+                    division = (num1 / num2).toFixed(2);
+                } else {
+                    division = 'Cannot divide by zero';
+                }
+                document.getElementById('divisionResult').innerHTML = 'Division: ' + division;
+            }
+        }
+        function isNumeric(value, helpmsg) {
+            var numericexpr = /^[0-9]+$/;
+            if (value.match(numericexpr)) {
+                return true;
+            } else {
+                alert(helpmsg);
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Multiplication and Division Calculator</h2>
+    <div>
+        <label for="num1">Enter first number:</label>
+        <input type="text" id="num1" required /><br /><br />
+    </div>
+    <div>
+        <label for="num2">Enter second number:</label>
+        <input type="text" id="num2" required /><br /><br />
+    </div>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+    <h3>Results:</h3>
+    <p id="multiplicationResult"></p>
+    <p id="divisionResult"></p>
+</body>
+</html>

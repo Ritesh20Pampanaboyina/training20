@@ -1,0 +1,7 @@
+C:\CSharp_training\Web Technology\assessment\cc8\bin\Debug\cc8.exe.config
+C:\CSharp_training\Web Technology\assessment\cc8\bin\Debug\cc8.exe
+C:\CSharp_training\Web Technology\assessment\cc8\bin\Debug\cc8.pdb
+C:\CSharp_training\Web Technology\assessment\cc8\obj\Debug\cc8.csproj.AssemblyReference.cache
+C:\CSharp_training\Web Technology\assessment\cc8\obj\Debug\cc8.csproj.CoreCompileInputs.cache
+C:\CSharp_training\Web Technology\assessment\cc8\obj\Debug\cc8.exe
+C:\CSharp_training\Web Technology\assessment\cc8\obj\Debug\cc8.pdb
