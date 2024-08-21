@@ -11,7 +11,7 @@ namespace cc9.Repository
         private readonly MoviesContext _db;
         private readonly DbSet<T> _dbSet;
 
-        public Repository(
+        public Repository()
         {
             _db = new MoviesContext();
             _dbSet = _db.Set<T>();
